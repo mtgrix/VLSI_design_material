@@ -1,0 +1,13 @@
+# User Personal / Instruction files
+CLAUDE.md
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Antigravity & AI assistant memory
+.remember/
+*.tmp
