@@ -96,9 +96,9 @@ def generate_fig1():
 
             # Motion arrow: holes pushed downward
             for x in [3.0, 5.0, 7.0]:
-                ax.annotate("Lỗ trống bị đẩy tụt sâu xuống đế", xy=(x, 1.8), xytext=(x, 3.0),
-                            arrowprops=dict(arrowstyle="->", color="#c2410c", lw=1.5),
-                            fontsize=8, ha='center', color='#9a3412')
+                ax.annotate("", xy=(x, 1.6), xytext=(x, 3.2),
+                            arrowprops=dict(arrowstyle="->", color="#c2410c", lw=1.8, linestyle=':'))
+            ax.text(5.0, 3.4, "Lỗ trống bị đẩy tụt sâu xuống đế", fontsize=8.5, ha='center', color='#9a3412', fontweight='bold')
             ax.text(5.0, 2.5, "Vùng nghèo ($W_{dep}$): Các ion $B^-$ bị 'đóng băng'\ntrong mạng tinh thể, không còn hạt tự do", ha='center', fontsize=8.5, color='#334155', fontweight='bold')
 
         elif i == 2:  # Inversion
