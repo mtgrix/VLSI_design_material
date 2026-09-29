@@ -12,3 +12,6 @@ env/
 # Antigravity & AI assistant memory
 .remember/
 *.tmp
+
+# Raw source lecture slides & textbooks
+source/
